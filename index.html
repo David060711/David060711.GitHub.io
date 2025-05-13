@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>给宝宝老师的生日祝福</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #ffd6e7; /* 更鲜艳的粉红色背景 */
+            color: #333;
+        }
+        .letter {
+            background-color: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        p {
+            margin-bottom: 20px;
+            text-indent: 2em;
+            font-size: 1.05em;
+        }
+        .signature {
+            text-align: right;
+            font-style: italic;
+            margin-top: 40px;
+            font-size: 1.1em;
+        }
+        .highlight {
+            color: #ffcc00; /* 改为亮黄色 */
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        .no-indent {
+            text-indent: 0;
+        }
+        .emoji {
+            font-size: 1.2em;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="letter">
+        <h1>🎉 亲爱的宝宝老师：生日快乐！！！！ 🎉</h1>
+        
+        <p class="no-indent">主要是那张纸有一点点小，感觉写不了两个字，于是这样胡乱写点，可惜文笔不好，你也就看个热闹。。。</p>
+        
+        <p>我觉得我们之间的关系真的只能用<span class="highlight">有缘</span><span class="emoji">🌈</span>来形容，
+           其实我一直很相信缘分这个东西<span class="emoji">✨</span>，不然你想想，我来自大西北，你来自东北，但我们却
+           在杭州相识。更加妙不可言的是我们从军训就开始认识，而最后竟然在迪士尼谈上了恋爱<span class="emoji">🏰💘</span>
+           。。。。这一切都是多么的神奇<span class="emoji">😇</span>。</p>
+        
+        <p>当然，我觉得也不能完全把这种东西归因于缘分。现在回想一下，其实如果不是你一直陪着我学习，出去玩等等，我的大学生
+           活可能会真的无趣很多，我也会真的寂寞很多。所以真的真的想要感谢你自从上学期以来，一直跟我做朋友，在我有时候感觉
+           孤独寂寞的时候发现身边还有这样一个难得的好朋友可以跟我在一起<span class="emoji">🥰</span>。虽然说我并不是很
+           恋家，但是毕竟是第一次离家这么远，真的很感谢可以有你陪在我身边。而且其实我这人确实总是有一些小毛病，有时候太清
+           高，太爱反驳别人，有时候又太小气，真的觉得有这样一个可以对他们是为不见的人在身边是一件幸事</p>
+        
+        <p>其实意识到你已经十九岁了，我突然发现我也快过完我的十八岁了，我们都已经成为成年人一年了。。。。我感觉有时候这很荒
+           唐，就是很难接受这种时间逝去的感觉，我总感觉我还是那个凡事可以依靠爸妈的小朋友，但是渐渐的感觉到其实爸爸妈妈也老
+           了，而且我真的需要为我自己考虑，而且想到这种压力会与日俱增就很头疼。这有时候真的挺无助的。但是现在我突然意识到我
+           有一个可爱的宝宝可以帮我分担一些这种讨厌的东西，我真的好幸运啊。当然，其实不一定是分担，有时候你只是单纯呆在身边
+           ，我都感觉会安心一点。。。我想，或许你也会遇到类似的烦心事吧，那你一定要告诉我哦，可能我并没有能
+           力帮你完全解决问题，不过我会尽我所能地陪着你，尊重并支持你的每一个决定。</p>
+        
+        <p class="no-indent">（说了这么多，会不会太冗长了，没事的，就剩最后一段了。坚持一下下）</p>
+        
+        <p>真的，我觉得在这个年纪，在这个地方与你相遇，相恋都是一件无比幸运，无比珍贵的事情。在你过生日的时候写点东西来聊表
+           一下心意。希望你在新的一岁里可以少点烦恼，多点开心，身体健康，事事如意<span class="emoji">✨</span>。</p>
+        
+        <p class="highlight no-indent">当然最重要的是。。。心想适丞！<span class="emoji">🎯</span></p>
+        
+        <div class="signature">
+            from David<span class="emoji">✍️</span><br>
+            <span id="date"></span> <span class="emoji">📅</span>
+        </div>
+    </div>
+
+    <script>
+        // 自动添加当前日期
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('date').textContent = now.toLocaleDateString('zh-CN', options);
+    </script>
+</body>
+</html>
